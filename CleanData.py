@@ -4,6 +4,8 @@ from PIL import Image
 
 directory = "./Dataset/"
 ResizeScale=256
+ExportToDataset=False
+
 def check_tags_file(image_name):
     tags_folder = os.path.join(os.path.dirname(image_name), "tags")
     if not os.path.exists(tags_folder):
@@ -24,17 +26,18 @@ for subdir, dirs, files in os.walk(directory):
                         pass
                     else:
                         tags_file = check_tags_file(filepath)
-                        new_folder = os.path.join("./Plixel/5_Plixel/")
-                        if not os.path.exists(new_folder):
-                            os.makedirs(new_folder)
-                        new_image_path = os.path.join(new_folder, os.path.basename(filepath))
-                        new_tags_path = os.path.join(new_folder, os.path.basename(tags_file)[:-5] + ".txt")
-                        shutil.copy2(filepath, new_image_path)
-                        shutil.copy2(tags_file, new_tags_path)
-                        os.remove(tags_file)
-                        with Image.open(new_image_path) as new_img:
-                            new_img = new_img.resize((ResizeScale, ResizeScale))
-                            new_img.save(new_image_path)
+                        if(ExportToDataset):
+                            new_folder = os.path.join("./Plixel/5_Plixel/")
+                            if not os.path.exists(new_folder):
+                                os.makedirs(new_folder)
+                            new_image_path = os.path.join(new_folder, os.path.basename(filepath))
+                            new_tags_path = os.path.join(new_folder, os.path.basename(tags_file)[:-5] + ".txt")
+                            shutil.copy2(filepath, new_image_path)
+                            #shutil.copy2(tags_file, new_tags_path)
+                            #os.remove(tags_file)
+                            with Image.open(new_image_path) as new_img:
+                                new_img = new_img.resize((ResizeScale, ResizeScale), resample=Image.NEAREST)
+                                new_img.save(new_image_path)
             elif filepath.endswith(".tags"):
                 pass
             else:
