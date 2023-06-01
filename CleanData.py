@@ -13,7 +13,9 @@ def check_tags_file(image_name):
     tags_file = os.path.join(tags_folder, f"{os.path.basename(image_name)[:-4]}.tags")
     if not os.path.exists(tags_file):
         with open(tags_file, "w") as f:
+            f.write(image_name.split("/")[-1][:-4])
             pass
+            
     return tags_file
 
 for subdir, dirs, files in os.walk(directory):
