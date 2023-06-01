@@ -2,7 +2,7 @@ import os
 
 # Path to the directory
 path = "./Dataset/"
-
+TotalCount=0
 # Open readme.md file for writing
 with open("readme.md", "w") as file:
 
@@ -18,6 +18,8 @@ with open("readme.md", "w") as file:
         for filename in filenames:
             if filename.endswith(".png"):
                 png_count += 1
+                TotalCount += 1
         
         if(png_count>=1):
             file.write(f"| {dirpath} | {png_count} |\n")
+    file.write(f"Total: {TotalCount}")
