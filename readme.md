@@ -1,24 +1,24 @@
 | Mod | Data |
 | --- | --- |
-| Enderscape | 17 | Unlabled
-| Things | 29 | Unlabled
-| Purpleite | 31 | Unlabled
-| Create | 89 | Unlabled
-| HexCasting | 84 | Unlabled
-| Minecraft_1.18.2 | 322 | Unlabled
-| Supplementaries | 78 | Unlabled
-| Spectrum | 313 | Unlabled
-| Amethyst Imbuement | 139 | Unlabled
-| TerraMine | 138 | Unlabled
-| Better_End | 175 | Unlabled 
-| TinkersConstruct | 158 | Unlabled
-| Nethers_Delight | 23 | Unlabled
-| Artifacts | 37 | Unlabled
-| Haema | 6 | Unlabled
-| MythicMetals | 332 | Unlabled
-| Farmers_Delight | 121 | Unlabled
-| Arcanus | 4 | Unlabled
-| Quark | 93 | Unlabled
-| Better_Nether | 119 | Unlabled
-| Botania | 320 | Unlabled
+| Enderscape | 17 |
+| Things | 29 |
+| Purpleite | 31 |
+| Create | 89 |
+| HexCasting | 84 |
+| Minecraft_1.18.2 | 322 |
+| Supplementaries | 78 |
+| Spectrum | 313 |
+| Amethyst Imbuement | 139 |
+| TerraMine | 138 |
+| Better_End | 175 |
+| TinkersConstruct | 158 |
+| Nethers_Delight | 23 |
+| Artifacts | 37 |
+| Haema | 6 |
+| MythicMetals | 332 |
+| Farmers_Delight | 121 |
+| Arcanus | 4 |
+| Quark | 93 |
+| Better_Nether | 119 |
+| Botania | 320 |
 Total: 2628
