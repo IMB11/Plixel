@@ -1,10 +1,27 @@
-Enderscape [https://github.com/lunarbunten/enderscape] MIT
-Minecraft [https://www.minecraft.net/en-us/terms] Custom
-Artifacts [https://github.com/florensie/artifacts-fabric] GNU Lesser General Public License v3.0
-BetterEnd [https://github.com/paulevsGitch/BetterEnd] MIT
-BetterNeter [https://github.com/paulevsGitch/BetterNether] GNU General Public License v3.0
+TRAIN:
+TinkersConstruct [https://github.com/SlimeKnights/TinkersConstruct] MIT
+Things[https://github.com/wisp-forest/things] MIT
+Create [https://github.com/Creators-of-Create/Create] MIT
 Farmers Delight [https://github.com/vectorwing/FarmersDelight] MIT
 NethersDelight [https://github.com/Chefs-Delight/NethersDelight_Forge] MIT
-Quark [https://github.com/VazkiiMods/Quark] Custom
+BetterEnd [https://github.com/paulevsGitch/BetterEnd] MIT
+Enderscape [https://github.com/lunarbunten/enderscape] MIT
+Purpleite [https://github.com/acikek/purpeille] MIT
+MythicMetals [https://github.com/Noaaan/MythicMetals] MIT
+HexCasting [https://github.com/gamma-delta/HexMod] MIT
+Haema [https://github.com/williambl/haema] MIT
+
+ArsNuveau [https://github.com/baileyholl/Ars-Nouveau] LGPL-3.0
+TerraMine [https://github.com/jakeb072001/TerraMine] LGPL-3.0
+
+Artifacts [https://github.com/florensie/artifacts-fabric] GNU Lesser General Public License v3.0
+BetterNeter [https://github.com/paulevsGitch/BetterNether] GNU General Public License v3.0
+
+Minecraft [https://www.minecraft.net/en-us/terms] Custom
 Botina [https://github.com/VazkiiMods/Botania] Custom
-Create [https://github.com/Creators-of-Create/Create] MIT
+
+
+DO NOT TRAIN:
+Spectrum [https://github.com/DaFuqs/Spectrum] ARR
+Quark [https://github.com/VazkiiMods/Quark] Custom
+Arcanus [https://github.com/baileyholl/Ars-Nouveau] Custom
