@@ -45,7 +45,7 @@ for subdir, dirs, files in os.walk(directory):
                             if not os.path.exists(new_folder):
                                 os.makedirs(new_folder)
                             new_image_path = os.path.join(new_folder, subdir.split("/")[-1] + "_" + os.path.basename(filepath))
-                            new_tags_path = os.path.join(new_folder, subdir.split("/")[-1] + "_" + os.path.basename(tags_file)[:-5] + ".txt")
+                            new_tags_path = os.path.join(new_folder, subdir.split("/")[-1] + "_" + os.path.basename(tags_file)[:-5] + ".tags")
                             shutil.copy2(filepath, new_image_path)
                             shutil.copy2(tags_file, new_tags_path)
                             with Image.open(new_image_path) as new_img:
